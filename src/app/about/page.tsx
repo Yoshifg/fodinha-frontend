@@ -1,12 +1,12 @@
-import { Card } from "@/components/cards";
+import { Card } from '@/components/cards';
 
 export default function Rules() {
     return (
-        <div className="min-h-[calc(100vh-102px)] flex flex-col items-center py-12">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-12 sm:mb-20 text-center">
+        <div className='min-h-[calc(100vh-102px)] flex flex-col items-center py-12'>
+            <h1 className='text-4xl sm:text-5xl font-bold mb-12 sm:mb-20 text-center'>
                 Sobre a Fodinha
             </h1>
-            <div className="max-w-4xl space-y-6 sm:space-y-10 px-6 text-sm sm:text-xl text-justify">
+            <div className='max-w-4xl space-y-6 sm:space-y-10 px-6 text-sm sm:text-xl text-justify'>
                 <p>
                     Tudo começou com um sonho. Literalmente, em uma noite qualquer, entre um dia cheio de aula e outro, um de nós acordou suando frio com uma visão clara: um baralho místico, uma mesa imaginária e quatro estudantes jogando… <strong>Fodinha</strong>.
                 </p>
@@ -22,7 +22,7 @@ export default function Rules() {
                 <p>
                     Hoje, a Fodinha é mais que um jogo. É sobre sonhar alto, errar previsões, e mesmo assim continuar apostando. Porque no final, como dizem os grandes empreendedores: <strong>não se trata de quantas vezes você perde, mas de quantas vezes você manda ver no blefe</strong>.
                 </p>
-                <p className="text-center mt-10 italic text-base text-gray-500">
+                <p className='text-center mt-10 italic text-base text-gray-500'>
                     “Se a vida te der cartas ruins... jogue Fodinha.”
                 </p>
             </div>
