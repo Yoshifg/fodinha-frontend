@@ -12,7 +12,7 @@ type Suit = keyof typeof SUITS;
 interface CardFrontProps {
     front: string;
     suit: Suit;
-    size?: string; // Tailwind size class, e.g., "w-24"
+    size?: string
 }
 
 export default function CardFront({ front, suit, size = "w-24 aspect-[2.5/3.5]" }: CardFrontProps) {
