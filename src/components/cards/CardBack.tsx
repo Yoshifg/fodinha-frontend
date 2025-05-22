@@ -8,7 +8,7 @@ export default function CardBack({ size = "w-24 aspect-[2.5/3.5]" }: CardBackPro
             <div
                 className={'bg-cover bg-center w-full h-full'}
                 style={{
-                    backgroundImage: "url('/colorful-stingrays(1).svg')",
+                    backgroundImage: "url('/blue-scale-pattern.svg')",
                     backgroundSize: '150%'
                 }}
             >

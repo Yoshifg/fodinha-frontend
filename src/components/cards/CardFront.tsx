@@ -1,10 +1,10 @@
 import { Diamond, Spade, Heart, Club } from 'lucide-react';
 
 const SUITS = {
-    ouros: Diamond,
-    copas: Heart,
-    espadas: Spade,
-    paus: Club,
+    diamond: Diamond,
+    heart: Heart,
+    spade: Spade,
+    club: Club,
 } as const;
 
 type Suit = keyof typeof SUITS;
@@ -16,7 +16,7 @@ interface CardFrontProps {
 }
 
 export default function CardFront({ front, suit, size = "w-24 aspect-[2.5/3.5]" }: CardFrontProps) {
-    const textColor = suit === "ouros" || suit === "copas" ? "text-red-500" : "text-black";
+    const textColor = suit === "diamond" || suit === "heart" ? "text-red-500" : "text-black";
     const SuitIcon = SUITS[suit];
 
     const iconSizes = {

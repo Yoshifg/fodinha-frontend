@@ -38,7 +38,7 @@ export default function Rules() {
                                     zIndex: index,
                                 }}
                             >
-                                <Card front={front} suit='paus' size='w-28 sm:w-32 aspect-[2.5/3.5]' />
+                                <Card front={front} suit='club' size='w-28 sm:w-32 aspect-[2.5/3.5]' />
                             </div>
                         ))}
                     </div>
@@ -54,7 +54,7 @@ export default function Rules() {
 
                 <div className='w-full h-64 relative flex flex-col items-center justify-center'>
                     <div className='relative w-[calc(34px*3+128px)] h-[190px]'>
-                        {(['ouros', 'espadas', 'copas', 'paus'] as const).map((suit, index) => (
+                        {(['diamond', 'spade', 'heart', 'club'] as const).map((suit, index) => (
                             <div
                                 key={suit}
                                 className='absolute transition-transform duration-300 hover:-translate-y-4'
